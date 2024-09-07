@@ -97,3 +97,12 @@ This project was generated from [@cjolowicz]'s [Hypermodern Python Cookiecutter]
 [license]: https://github.com/MarcoMuellner/openapi-python-generator/blob/main/LICENSE
 [contributor guide]: https://github.com/MarcoMuellner/openapi-python-generator/blob/main/CONTRIBUTING.md
 [Quick start page]: https://marcomuellner.github.io/openapi-python-generator/quick_start/
+
+[docker run]
+
+```bash
+docker run -it --rm   --mount type=bind,source=.,target=/project/code  daniinxorchenabo/openapi_generator_env:latest /bin/bash
+source  /project/venv/openapi-python-generator-il7asoJj-py3.9/bin/activate
+cd /project/code
+nox
+```
